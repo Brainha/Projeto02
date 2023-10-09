@@ -37,6 +37,12 @@ ul li a:hover {
   font-weight: bold;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1 {
   font-family: "Mulish", sans-serif;
 
@@ -53,10 +59,12 @@ h1 span {
   font-weight: bold;
 }
 
-p {
+section p {
   font-size: 14px;
   line-height: 28px;
   color: #7d787d;
+
+  margin: 40px 0;
 }
 
 button {
@@ -67,6 +75,10 @@ button {
 footer {
   font-size: 14px;
   line-height: 28px;
+
+  text-align: center;
+
+  margin-top: 80px;
 }
 
 footer a {
